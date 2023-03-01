@@ -238,7 +238,9 @@ h1 {
     margin-bottom: 24px;
 }
 
-.photo-segment li:hover {
+.photo-segment li:hover,
+.photo-segment2 li:hover
+ {
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
     transition: all 200ms;
 
@@ -259,4 +261,57 @@ h1 {
     font-size: 18px;
     font-weight: 400;
     transition: all 400ms;
+}
+
+/**** photo segment 2 ****/
+.photo-segment2 img {
+    /* width: 100%; */
+    /* height: 440px; */
+    border-radius: 10px;
+    transition: all 0.4s;
+    display: table-cell;
+    margin: 0 auto;
+
+}
+
+.photo-segment2 li {
+    list-style-type: none;
+    background-color: #f6f6f6;
+    height: auto;
+    border-radius: 10px;
+    padding: 40px;
+    transition: all 200ms;
+    height: 315px;
+}
+
+.photo-segment2 li h4 {
+    text-align: center;
+    color: #23272A;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin-bottom: 8px;
+    margin-top: 25px;
+
+
+}
+#sec-fif{
+    margin-top: 45px;
+}
+#lastobfd{
+    margin-top: 55px;
+}
+.photo-segment2 li h5 {
+    text-align: center;
+    color: #23272a9d;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.photo-segment2 ul li div{
+    text-align: center;
+    color: #23272A;
+    font-family: 'Open Sans', sans-serif;
+}
+.forjqphotos{
+    display: none;
 }
