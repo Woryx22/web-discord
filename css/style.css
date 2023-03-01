@@ -1,13 +1,28 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/**** Stop floating ****/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /***** reusable *****/
 
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+    font-family: ClimateCrisis;
+    src: url(ClimateCrisis-Regular-VariableFont_YEAR.ttf);
+}
+
 .row {
-    width: 80%;
+    width: 90%;
+    max-width: 1180px;
     margin: 0 auto;
 }
 
@@ -16,11 +31,87 @@
 
 #video {
     width: 100%;
-    height: 38vw;
-    object-fit:cover;
+    height: 80%;
+    object-fit: cover;
     display: inline-block;
     object-position: 0% 30%;
+    position: fixed;
+    overflow: hidden;
 }
 
+.heading img {
+    position: relative;
+    width: 125px;
+    float: left;
+    margin: 1.6rem 1.2rem;
+}
 
-  
+.heading ul {
+    margin-left: 20%;
+    position: relative;
+}
+
+.heading nav ul li {
+    list-style-type: none;
+}
+
+.heading nav ul li a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    float: left;
+    margin: 1.8rem 1.2rem 0rem 1.2rem;
+}
+
+.heading nav ul li a:hover {
+    border-bottom: 1px solid white;
+}
+
+.heading a.btn:link,
+.heading a.btn:visited {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    padding: 10px 16px;
+    background-color: white;
+    border: 0;
+    border-radius: 20px;
+    float: right;
+    margin-top: 1.25rem;
+    margin-right: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    transition: all 400ms;
+}
+
+.heading a.btn:hover,
+.heading a.btn:active {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    transition: all 400ms;
+}
+
+.heading-text p,
+h1 {
+    position: relative;
+    color: white;
+}
+
+.heading-text h1 {
+    margin-top: 120px;
+    margin-left: 45px;
+    margin-bottom: 24px;
+    font-size: 48px;
+    font-weight: 100;
+    font-family: 'ClimateCrisis', cursive;
+    line-height: 120%;
+}
+
+.heading-text p {
+    margin-left: 45px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 28px ;
+}
