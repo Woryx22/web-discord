@@ -239,8 +239,7 @@ h1 {
 }
 
 .photo-segment li:hover,
-.photo-segment2 li:hover
- {
+.photo-segment2 li:hover {
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
     transition: all 200ms;
 
@@ -294,12 +293,15 @@ h1 {
 
 
 }
-#sec-fif{
+
+#sec-fif {
     margin-top: 45px;
 }
-#lastobfd{
+
+#lastobfd {
     margin-top: 55px;
 }
+
 .photo-segment2 li h5 {
     text-align: center;
     color: #23272a9d;
@@ -307,11 +309,65 @@ h1 {
     font-size: 14px;
     font-weight: 400;
 }
-.photo-segment2 ul li div{
+
+.photo-segment2 ul li div {
     text-align: center;
     color: #23272A;
     font-family: 'Open Sans', sans-serif;
 }
-.forjqphotos{
+
+.forjqphotos {
     display: none;
+}
+
+/***** Plans *****/
+
+.plan-panel {
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    padding: 80px 100px;
+}
+
+.plan-panel h2 {
+    position: relative;
+    /* margin-top: 80px; */
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 44px;
+    color: #23272A;
+    margin-bottom: 50px;
+}
+
+
+
+
+.row2 p,
+.row1 p {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.row2 img {
+    margin-left: 50px;
+    padding: 30px;
+
+}
+
+.row1 img {
+    margin-left: 50px;
+}
+
+.row2,
+.row1 {
+    display: grid;
+    min-height: 68px;
+    padding-bottom: 0px;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 0px;
+    -ms-grid-columns: 2fr minmax(180px, 180px) minmax(180px, 180px);
+    grid-template-columns: 2fr minmax(180px, 180px) minmax(180px, 180px);
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+    border-bottom: 1px solid #c7ccd1;
 }
