@@ -192,7 +192,8 @@
 }
 
 .span-4-of-6 {
-  	width: 66.13%;
+  	/* width: 66.13%; */
+	width: 100%;
 }
 
 .span-3-of-6 {

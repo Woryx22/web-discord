@@ -338,23 +338,41 @@ h1 {
     margin-bottom: 50px;
 }
 
-
-
-
 .row2 p,
 .row1 p {
     padding-left: 0;
     padding-right: 0;
 }
 
-.row2 img {
+.row2 img.y {
     margin-left: 50px;
     padding: 30px;
+}
+.row2 img.n {
+    margin-left: 50px;
+    padding: 25px;
+}
+#huge1{
+    margin-left: 35px;
+    padding: 40px;
+}
+#huge2{
+    margin-left: 35px;
 
+    padding: 45px;
+}
+.row2 div span{
+    display: table;
+    width: 100px;
+    margin-left: 65px;
+    padding: 30px 0px;
+}
+#wide-text{
+    margin-left: 45px;
 }
 
 .row1 img {
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
 .row2,
@@ -370,4 +388,12 @@ h1 {
     -ms-grid-rows: auto;
     grid-template-rows: auto;
     border-bottom: 1px solid #c7ccd1;
+}
+
+div.span-4-of-6 p {
+    display: inline-block;
+    min-height: 75px;
+    padding: 30px 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #23272A;
 }
