@@ -389,11 +389,37 @@ h1 {
     grid-template-rows: auto;
     border-bottom: 1px solid #c7ccd1;
 }
-
+.row3{
+        display: grid;
+        min-height: 68px;
+        padding-bottom: 0px;
+        grid-auto-columns: 1fr;
+        grid-column-gap: 30px;
+        grid-row-gap: 0px;
+        -ms-grid-columns: 2fr minmax(180px, 180px) minmax(180px, 180px);
+        grid-template-columns: 2fr minmax(180px, 180px) minmax(180px, 180px);
+        -ms-grid-rows: auto;
+        grid-template-rows: auto;
+}
 div.span-4-of-6 p {
     display: inline-block;
     min-height: 75px;
     padding: 30px 0;
     font-family: 'Open Sans', sans-serif;
     color: #23272A;
+}
+.row3 a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 40px;
+    background-color: #5865f2;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 16px;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    transition: all 200ms;
 }

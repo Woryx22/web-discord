@@ -207,6 +207,9 @@
 .span-1-of-6 {
   	width: 15.33%;
 }
+.span--1-of-6 {
+	width: 100%;
+}
 
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
